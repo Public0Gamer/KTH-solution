@@ -1,0 +1,1495 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KTH Solutions Pvt Ltd | Luxury AI CCTV Surveillance & Enterprise IT Solutions</title>
+  <meta name="description" content="KTH Solutions Pvt Ltd - Your One-Stop IT Hardware, Networking & High-End CCTV Security Solutions. Free Site Survey & 24/7 Rapid Support. Call +91 9073968243.">
+
+  <!-- Google Fonts: Syne (Luxury/Cyber Display), Plus Jakarta Sans (Body), JetBrains Mono (Telemetry) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN with custom config -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              purple: '#2D1B69',
+              navy: '#0F172A',
+              slate: '#1E293B',
+              cyan: '#0284C7',
+              cyanGlow: '#00F2FE',
+              gold: '#D97706',
+              goldLight: '#F59E0B',
+              emerald: '#059669',
+            }
+          },
+          fontFamily: {
+            display: ['Syne', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Bespoke Cyber-Luxury Stylesheet -->
+  <link rel="stylesheet" href="css/cyber-luxury.css">
+</head>
+<body class="bg-[#F8FAFC] text-slate-900 antialiased selection:bg-sky-500 selection:text-white">
+
+  <!-- =========================================================================
+       TOP TELEMETRY & RAPID CONTACT BAR
+       ========================================================================= -->
+  <div class="bg-gradient-to-r from-slate-950 via-[#1E1B4B] to-slate-950 text-slate-300 text-xs py-2 px-4 border-b border-sky-500/20">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center space-x-3 font-mono">
+        <span class="inline-flex items-center space-x-1.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded text-[11px]">
+          <span class="radar-live-beacon"></span>
+          <span class="font-bold">SYSTEM ACTIVE: 24/7 RAPID DISPATCH</span>
+        </span>
+        <span class="hidden md:inline text-slate-400">|</span>
+        <span class="hidden md:inline text-slate-300 font-mono text-[11px]">
+          UTC LIVE: <span class="live-timecode text-sky-400">2026-10-07 00:00:00</span>
+        </span>
+      </div>
+
+      <div class="flex items-center space-x-4 font-mono text-[11px]">
+        <span class="hidden lg:inline text-amber-300">
+          ★ Certified Surveillance Engineers | ISO 9001:2015 Standards
+        </span>
+        <a href="tel:+919073968243" class="inline-flex items-center text-amber-400 hover:text-amber-300 font-bold transition">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 mr-1 text-amber-400"></i>
+          +91 9073968243
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       MAIN NAVIGATION BAR
+       ========================================================================= -->
+  <header class="sticky top-0 z-50 glass-panel-luxury border-b border-slate-200/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Identity / Logo -->
+        <a href="#" class="flex items-center space-x-3 group">
+          <div class="relative bg-white p-1 rounded-xl shadow-md border border-slate-200 group-hover:border-sky-400 transition-all">
+            <img src="assets/logo_clean.png" alt="KTH Solutions Pvt Ltd Logo" class="h-12 w-auto object-contain rounded">
+          </div>
+          <div>
+            <div class="flex items-center space-x-1.5">
+              <span class="font-display font-extrabold text-xl tracking-tight text-slate-900 group-hover:text-sky-600 transition">
+                KTH <span class="text-sky-600">SOLUTIONS</span>
+              </span>
+              <span class="text-[10px] font-mono font-bold uppercase tracking-widest bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded border border-slate-300">
+                PVT LTD
+              </span>
+            </div>
+            <p class="text-[11px] text-slate-500 font-medium tracking-wide">
+              Complete IT Solutions | Trusted Technology Support
+            </p>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold text-slate-700">
+          <a href="#services" class="hover:text-sky-600 transition flex items-center space-x-1">
+            <span>Solutions</span>
+          </a>
+          <a href="#cctv-simulator" class="hover:text-sky-600 transition flex items-center space-x-1">
+            <span class="relative flex h-2 w-2 mr-1">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
+            </span>
+            <span>Live Camera HUD</span>
+          </a>
+          <a href="#estimator" class="hover:text-sky-600 transition">Cost Calculator</a>
+          <a href="#lens-visualizer" class="hover:text-sky-600 transition">Lens FOV</a>
+          <a href="#hardware-matrix" class="hover:text-sky-600 transition">Hardware & IT</a>
+          <a href="#why-kth" class="hover:text-sky-600 transition">Why Us</a>
+          <a href="#contact" class="hover:text-sky-600 transition">Contact</a>
+        </nav>
+
+        <!-- Right Quick Action Buttons -->
+        <div class="hidden sm:flex items-center space-x-3">
+          <a href="https://wa.me/919073968243?text=Hello%20KTH%20Solutions,%20I%20would%20like%20to%20get%20a%20quote%20for%20CCTV%20and%20IT%20Installation." target="_blank" class="btn-cyber-outline px-4 py-2.5 text-xs inline-flex items-center">
+            <i data-lucide="message-square" class="w-4 h-4 mr-1.5 text-emerald-600"></i>
+            WhatsApp Quote
+          </a>
+          <a href="tel:+919073968243" class="btn-cyber-primary px-5 py-2.5 text-xs inline-flex items-center">
+            <i data-lucide="phone" class="w-4 h-4 mr-1.5"></i>
+            Call: +91 9073968243
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-toggle" class="lg:hidden p-2.5 rounded-lg bg-slate-100 text-slate-800 hover:bg-slate-200 focus:outline-none" aria-label="Toggle Navigation">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-drawer" class="fixed inset-y-0 right-0 w-80 bg-white z-50 shadow-2xl p-6 transform translate-x-full transition-transform duration-300 flex flex-col justify-between border-l border-slate-200">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-slate-100">
+        <div class="font-display font-bold text-lg text-slate-900">
+          KTH <span class="text-sky-600">SOLUTIONS</span>
+        </div>
+        <button id="mobile-drawer-close" class="p-2 text-slate-500 hover:text-slate-800">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <nav class="mt-6 flex flex-col space-y-4 text-slate-800 font-semibold">
+        <a href="#services" class="mobile-nav-link hover:text-sky-600 py-1">Services & Hardware</a>
+        <a href="#cctv-simulator" class="mobile-nav-link hover:text-sky-600 py-1 flex items-center justify-between">
+          <span>Live Camera Simulator</span>
+          <span class="text-[10px] bg-sky-100 text-sky-700 font-mono px-2 py-0.5 rounded">NEW</span>
+        </a>
+        <a href="#estimator" class="mobile-nav-link hover:text-sky-600 py-1">CCTV Cost Calculator</a>
+        <a href="#lens-visualizer" class="mobile-nav-link hover:text-sky-600 py-1">Lens & Angle Planner</a>
+        <a href="#hardware-matrix" class="mobile-nav-link hover:text-sky-600 py-1">Computers & Printers</a>
+        <a href="#why-kth" class="mobile-nav-link hover:text-sky-600 py-1">Why KTH Solutions</a>
+        <a href="#contact" class="mobile-nav-link hover:text-sky-600 py-1">Contact Us</a>
+      </nav>
+    </div>
+
+    <div class="space-y-3 pt-6 border-t border-slate-100">
+      <a href="tel:+919073968243" class="w-full btn-cyber-primary py-3 text-center flex items-center justify-center text-sm font-bold">
+        <i data-lucide="phone-call" class="w-4 h-4 mr-2"></i>
+        Call +91 9073968243
+      </a>
+      <a href="https://wa.me/919073968243" target="_blank" class="w-full btn-cyber-outline py-3 text-center flex items-center justify-center text-sm font-bold">
+        <i data-lucide="message-circle" class="w-4 h-4 mr-2 text-emerald-600"></i>
+        WhatsApp Support
+      </a>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       HERO SECTION - LUXURY CYBERNETIC ARCHITECTURE
+       ========================================================================= -->
+  <section class="relative pt-12 pb-20 lg:pt-20 lg:pb-32 overflow-hidden cyber-grid-bg">
+    
+    <!-- Ambient Cyber Glow Blooms -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-gradient-to-r from-sky-400/10 via-amber-300/10 to-indigo-500/10 blur-3xl pointer-events-none -z-10"></div>
+    <div class="absolute -top-24 right-0 w-96 h-96 bg-sky-300/15 rounded-full blur-3xl pointer-events-none -z-10"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <!-- Cyber Badge -->
+          <div class="inline-flex items-center space-x-2 badge-tech px-3.5 py-1.5 rounded-full text-xs font-mono font-bold tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-sky-500 animate-pulse"></span>
+            <span>ENTERPRISE SURVEILLANCE & COMPLETE IT ARCHITECTURE</span>
+          </div>
+
+          <!-- Main Headline with Luxury Gold & Cyber Gradient -->
+          <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-6xl text-slate-900 leading-[1.12] tracking-tight">
+            Your One-Stop <br>
+            <span class="gold-gradient-text">IT Hardware, Networking</span> <br>
+            & <span class="cyan-gradient-text">Security Solutions</span>
+          </h1>
+
+          <!-- Value Statement -->
+          <p class="text-lg text-slate-600 max-w-2xl font-normal leading-relaxed">
+            Protecting high-value villas, corporate headquarters, and commercial enterprises with 
+            <strong class="text-slate-900 font-semibold">AI-powered 4K surveillance</strong>, structured high-throughput networking, industrial UPS backup, and certified IT hardware deployment.
+          </p>
+
+          <!-- Key Banner Highlights Checkmarks -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 font-medium text-slate-700 text-sm">
+            <div class="flex items-center space-x-2.5">
+              <span class="w-5 h-5 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</span>
+              <span>4K Ultra-HD AI Facial & ANPR Cameras</span>
+            </div>
+            <div class="flex items-center space-x-2.5">
+              <span class="w-5 h-5 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</span>
+              <span>Concealed Aesthetic Structured Cabling</span>
+            </div>
+            <div class="flex items-center space-x-2.5">
+              <span class="w-5 h-5 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</span>
+              <span>Zero-Downtime UPS & Power Backup</span>
+            </div>
+            <div class="flex items-center space-x-2.5">
+              <span class="w-5 h-5 rounded-full bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xs flex-shrink-0">✓</span>
+              <span>Real-Time Mobile & Cloud Monitoring</span>
+            </div>
+          </div>
+
+          <!-- Dual Call to Actions -->
+          <div class="flex flex-wrap items-center gap-4 pt-4">
+            <a href="#estimator" class="btn-cyber-primary px-7 py-4 text-sm font-bold flex items-center space-x-2 shadow-lg">
+              <i data-lucide="calculator" class="w-4 h-4"></i>
+              <span>Instant CCTV Cost Estimator</span>
+            </a>
+            
+            <a href="tel:+919073968243" class="btn-cyber-gold px-7 py-4 text-sm font-bold flex items-center space-x-2 shadow-lg">
+              <i data-lucide="phone-call" class="w-4 h-4"></i>
+              <span>Call Now: +91 9073968243</span>
+            </a>
+
+            <a href="#cctv-simulator" class="btn-cyber-outline px-6 py-4 text-sm font-semibold flex items-center space-x-2">
+              <i data-lucide="eye" class="w-4 h-4 text-sky-600"></i>
+              <span>Launch Live HUD Demo</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges Bar -->
+          <div class="pt-6 border-t border-slate-200/80 flex flex-wrap items-center gap-6 text-xs text-slate-500 font-mono">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="shield-check" class="w-4 h-4 text-emerald-600"></i>
+              <span>3-YEAR ON-SITE OEM WARRANTY</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i data-lucide="clock" class="w-4 h-4 text-sky-600"></i>
+              <span>2-HOUR RAPID ON-SITE SLA</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <i data-lucide="award" class="w-4 h-4 text-amber-600"></i>
+              <span>2,500+ NODES SECURED</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual: 3D Luxury CCTV Camera & Cyber Card Frame -->
+        <div class="lg:col-span-5 relative">
+          <div class="cyber-bracket glass-panel-luxury p-3 rounded-2xl shadow-2xl relative overflow-hidden group">
+            
+            <!-- Live Status HUD Pill -->
+            <div class="absolute top-6 left-6 z-20 bg-slate-900/80 backdrop-blur-md border border-sky-400/40 text-white px-3 py-1.5 rounded-lg text-xs font-mono flex items-center space-x-2 shadow-lg">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+              <span class="text-sky-300 font-bold">OPTICAL SENSOR: 4K COLORHUNTER</span>
+            </div>
+
+            <div class="absolute top-6 right-6 z-20 bg-amber-500/90 text-slate-950 px-3 py-1 rounded text-[11px] font-mono font-extrabold shadow">
+              IP67 WEATHERPROOF
+            </div>
+
+            <!-- Precision Hero Camera Image -->
+            <div class="relative overflow-hidden rounded-xl bg-slate-100 aspect-[4/3] flex items-center justify-center">
+              <img src="assets/hero_camera.jpg" alt="Luxury AI CCTV Bullet Camera" class="w-full h-full object-cover object-center transform group-hover:scale-105 transition duration-700">
+              
+              <!-- Scanning Laser Overlay -->
+              <div class="scanline-active"></div>
+
+              <!-- HUD Crosshair Graphic -->
+              <div class="absolute inset-0 pointer-events-none flex items-center justify-center opacity-40">
+                <div class="w-32 h-32 border border-sky-400/40 rounded-full flex items-center justify-center">
+                  <div class="w-16 h-16 border border-sky-400/60 rounded-full"></div>
+                </div>
+              </div>
+
+              <!-- Target Identification Box -->
+              <div class="hud-target-box" style="top: 25%; left: 30%; width: 42%; height: 50%;">
+                <span class="absolute -top-6 left-0 bg-slate-950/90 text-cyan-300 text-[10px] font-mono px-2 py-0.5 rounded border border-cyan-500/50 whitespace-nowrap">
+                  TARGET LOCK: 4K HDR // F1.0
+                </span>
+              </div>
+            </div>
+
+            <!-- Mini Telemetry Strip Under Image -->
+            <div class="mt-3 p-3 bg-slate-900 text-slate-200 rounded-xl font-mono text-[11px] grid grid-cols-3 gap-2 text-center">
+              <div>
+                <span class="text-slate-400 block text-[10px]">APERTURE</span>
+                <span class="text-sky-400 font-bold">F1.0 SUPER-LUX</span>
+              </div>
+              <div class="border-x border-slate-700">
+                <span class="text-slate-400 block text-[10px]">AI ANALYTICS</span>
+                <span class="text-emerald-400 font-bold">ACUSENSE 3.0</span>
+              </div>
+              <div>
+                <span class="text-slate-400 block text-[10px]">NIGHT RANGE</span>
+                <span class="text-amber-400 font-bold">60M FULL-COLOR</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       COMPLETE IT & HARDWARE SERVICES SHOWCASE (MATCHING BANNER)
+       ========================================================================= -->
+  <section id="services" class="py-20 bg-white relative border-y border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <div class="inline-flex items-center space-x-2 badge-gold-tech px-3 py-1 rounded-full text-xs font-mono font-bold uppercase">
+          <i data-lucide="layers" class="w-3.5 h-3.5 text-amber-600"></i>
+          <span>Comprehensive Technical Spectrum</span>
+        </div>
+        <h2 class="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-tight">
+          Enterprise Security & Complete IT Hardware Infrastructure
+        </h2>
+        <p class="text-slate-600 text-base">
+          Every component sourced directly from OEM authorized channels with certified testing, pristine installation, and lifecycle maintenance support.
+        </p>
+      </div>
+
+      <!-- Services Grid: 7 Core Offerings from User Banner -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- 1. CCTV Surveillance Systems (Featured) -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover border-sky-300/60 lg:col-span-2 relative overflow-hidden bg-gradient-to-br from-white via-sky-50/20 to-white">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 mb-6">
+            <div class="flex items-center space-x-4">
+              <div class="w-14 h-14 rounded-2xl bg-sky-500 text-white flex items-center justify-center shadow-lg shadow-sky-500/30 flex-shrink-0">
+                <i data-lucide="video" class="w-7 h-7"></i>
+              </div>
+              <div>
+                <span class="text-xs font-mono font-bold text-sky-600 uppercase tracking-wider">Flagship Core Solution</span>
+                <h3 class="font-display font-bold text-2xl text-slate-900">CCTV Surveillance Systems</h3>
+              </div>
+            </div>
+            <span class="badge-tech font-mono text-xs px-3 py-1 rounded-full font-bold">4K AI & COLORHUNTER</span>
+          </div>
+
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            High-definition 4K IP, Starlight color-at-night, and 360° PTZ cameras with on-device artificial intelligence for license plate recognition (ANPR), perimeter breach alarms, and crystal-clear smartphone streaming.
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-6 font-mono text-xs text-slate-700">
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-sky-600 font-bold block">✓ Bullet & Dome</span>
+              <span class="text-slate-500 text-[11px]">Indoor / Outdoor IP67</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-sky-600 font-bold block">✓ 360° PTZ Zoom</span>
+              <span class="text-slate-500 text-[11px]">Auto Smart-Tracking</span>
+            </div>
+            <div class="p-2.5 bg-slate-50 rounded-lg border border-slate-200">
+              <span class="text-sky-600 font-bold block">✓ Cloud + NVR</span>
+              <span class="text-slate-500 text-[11px]">H.265+ Storage Saver</span>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between pt-4 border-t border-slate-100">
+            <span class="text-xs text-slate-500 font-medium">OEM Brands: Hikvision • CP PLUS • Dahua • Honeywell • Uniview</span>
+            <a href="#estimator" class="text-xs font-bold text-sky-600 hover:text-sky-700 flex items-center">
+              <span>Calculate Cameras</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5 ml-1"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Computers & Printers -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mb-6">
+            <i data-lucide="monitor" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-2">Computers & Printers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            High-performance executive desktops, workstation towers for surveillance control centers, and enterprise laser multifunction network printers (Canon, HP, Epson).
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700 mb-6 font-mono">
+            <li class="flex items-center"><span class="text-amber-500 mr-2">▪</span> Custom Built Control Room PCs</li>
+            <li class="flex items-center"><span class="text-amber-500 mr-2">▪</span> Multi-function Heavy-duty Network Printers</li>
+            <li class="flex items-center"><span class="text-amber-500 mr-2">▪</span> Workstation Hardware Upgrades & OS</li>
+          </ul>
+          <a href="tel:+919073968243" class="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center">
+            <span>Inquire Workstations</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5 ml-1"></i>
+          </a>
+        </div>
+
+        <!-- 3. Networking & Wi-Fi Solutions -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-600 flex items-center justify-center mb-6">
+            <i data-lucide="wifi" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-2">Networking & Wi-Fi Solutions</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Cat6/Cat6A structured gigabit cabling, fiber-optic splicing, PoE+ managed network switches, and zero-deadzone enterprise Wi-Fi 6 mesh setups (Ubiquiti, Cisco, TP-Link Omada).
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700 mb-6 font-mono">
+            <li class="flex items-center"><span class="text-sky-500 mr-2">▪</span> Enterprise Long-Range Access Points</li>
+            <li class="flex items-center"><span class="text-sky-500 mr-2">▪</span> Multi-Gigabit PoE+ Surveillance Switches</li>
+            <li class="flex items-center"><span class="text-sky-500 mr-2">▪</span> High-Speed Inter-Building Fiber Links</li>
+          </ul>
+          <a href="tel:+919073968243" class="text-xs font-bold text-sky-600 hover:text-sky-700 flex items-center">
+            <span>Network Audit</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5 ml-1"></i>
+          </a>
+        </div>
+
+        <!-- 4. UPS & Power Backup -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mb-6">
+            <i data-lucide="zap" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-2">UPS & Power Backup</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Online double-conversion UPS and heavy-duty battery banks ensuring 100% uninterrupted surveillance recording and server protection during voltage fluctuations or blackouts.
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700 mb-6 font-mono">
+            <li class="flex items-center"><span class="text-amber-500 mr-2">▪</span> 1kVA to 20kVA Online True Sine-wave UPS</li>
+            <li class="flex items-center"><span class="text-amber-500 mr-2">▪</span> Zero-Millisecond Transfer Time for DVR/NVR</li>
+            <li class="flex items-center"><span class="text-amber-500 mr-2">▪</span> Extended Backup Lithium & Tubular Packs</li>
+          </ul>
+          <a href="tel:+919073968243" class="text-xs font-bold text-amber-600 hover:text-amber-700 flex items-center">
+            <span>UPS Capacity Sizing</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5 ml-1"></i>
+          </a>
+        </div>
+
+        <!-- 5. Firewall & Network Security -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-600 flex items-center justify-center mb-6">
+            <i data-lucide="shield-alert" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-2">Firewall & Network Security</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Next-Gen Hardware Firewalls (Sophos, Fortinet, SonicWall), intrusion prevention, encrypted corporate VPN tunnels for work-from-home, and advanced bandwidth monitoring.
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700 mb-6 font-mono">
+            <li class="flex items-center"><span class="text-indigo-500 mr-2">▪</span> Unified Threat Management (UTM)</li>
+            <li class="flex items-center"><span class="text-indigo-500 mr-2">▪</span> Site-to-Site Encrypted CCTV Tunnels</li>
+            <li class="flex items-center"><span class="text-indigo-500 mr-2">▪</span> Anti-Ransomware & Malware Defense</li>
+          </ul>
+          <a href="tel:+919073968243" class="text-xs font-bold text-indigo-600 hover:text-indigo-700 flex items-center">
+            <span>Security Assessment</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5 ml-1"></i>
+          </a>
+        </div>
+
+        <!-- 6. Data Storage & Servers -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-6">
+            <i data-lucide="hard-drive" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-2">Data Storage & Servers</h3>
+          <p class="text-slate-600 text-sm leading-relaxed mb-6">
+            Synology/QNAP Network Attached Storage (NAS), enterprise Dell & HP rackmount servers, RAID redundant hard drives, and automated hybrid cloud backup pipelines.
+          </p>
+          <ul class="space-y-2 text-xs font-medium text-slate-700 mb-6 font-mono">
+            <li class="flex items-center"><span class="text-emerald-500 mr-2">▪</span> Terabytes to Petabytes Video Archival</li>
+            <li class="flex items-center"><span class="text-emerald-500 mr-2">▪</span> RAID 5 / 6 / 10 Hot-Swap Fault Tolerance</li>
+            <li class="flex items-center"><span class="text-emerald-500 mr-2">▪</span> Encrypted Off-Site Automated Replication</li>
+          </ul>
+          <a href="tel:+919073968243" class="text-xs font-bold text-emerald-600 hover:text-emerald-700 flex items-center">
+            <span>Storage Planning</span>
+            <i data-lucide="chevron-right" class="w-3.5 h-3.5 ml-1"></i>
+          </a>
+        </div>
+
+        <!-- 7. IT Accessories & Support (AMC) -->
+        <div class="cyber-bracket glass-panel-luxury p-8 rounded-2xl glass-panel-hover md:col-span-2 lg:col-span-3 bg-gradient-to-r from-slate-900 to-indigo-950 text-white">
+          <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+            <div class="space-y-3">
+              <div class="inline-flex items-center space-x-2 text-amber-400 font-mono text-xs font-bold">
+                <i data-lucide="wrench" class="w-4 h-4"></i>
+                <span>ANNUAL MAINTENANCE CONTRACTS (AMC) & SUPPORT</span>
+              </div>
+              <h3 class="font-display font-bold text-2xl text-white">IT Accessories, Server Racks & 24/7 AMC Support</h3>
+              <p class="text-slate-300 text-sm max-w-3xl leading-relaxed">
+                Complete server rack enclosures, patch panels, HDMI matrix splitters, high-grade waterproof junction boxes, and comprehensive preventative maintenance contracts with rapid engineer dispatch.
+              </p>
+            </div>
+            <div class="flex-shrink-0">
+              <a href="tel:+919073968243" class="btn-cyber-gold px-6 py-3.5 text-xs font-bold inline-flex items-center shadow-lg">
+                <i data-lucide="phone-call" class="w-4 h-4 mr-2"></i>
+                Book AMC Service: +91 9073968243
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       INTERACTIVE LIVE CCTV HUD CAMERA SIMULATOR (SHOWCASE)
+       ========================================================================= -->
+  <section id="cctv-simulator" class="py-20 bg-slate-50 relative overflow-hidden cyber-dots-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+        <div class="inline-flex items-center space-x-2 badge-tech px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase">
+          <i data-lucide="crosshair" class="w-3.5 h-3.5 text-sky-600"></i>
+          <span>Interactive Telemetry Experience</span>
+        </div>
+        <h2 class="font-display font-bold text-3xl sm:text-4xl text-slate-900">
+          Live CCTV HUD & AI Threat Recognition Simulator
+        </h2>
+        <p class="text-slate-600 text-sm">
+          Experience what our enterprise security camera feeds look like with active artificial intelligence target classification, night color enhancement, and real-time telemetry.
+        </p>
+      </div>
+
+      <!-- Simulator Outer Container -->
+      <div class="glass-panel-luxury p-4 sm:p-6 rounded-3xl border border-slate-300/80 shadow-2xl bg-white">
+        
+        <!-- Top Control Bar -->
+        <div class="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-slate-200">
+          
+          <!-- Channel Selectors -->
+          <div class="flex flex-wrap items-center gap-2">
+            <span class="text-xs font-mono font-bold text-slate-500 mr-1 uppercase">Select Feed:</span>
+            <button data-cam-channel="1" class="px-3.5 py-1.5 text-xs font-mono font-bold rounded-lg border transition bg-sky-500 text-white border-sky-500 shadow-md">
+              CH-01 Gate
+            </button>
+            <button data-cam-channel="2" class="px-3.5 py-1.5 text-xs font-mono font-bold rounded-lg border transition bg-white text-slate-700 border-slate-200 hover:bg-slate-100">
+              CH-02 Server Core
+            </button>
+            <button data-cam-channel="3" class="px-3.5 py-1.5 text-xs font-mono font-bold rounded-lg border transition bg-white text-slate-700 border-slate-200 hover:bg-slate-100">
+              CH-03 360° Interior
+            </button>
+            <button data-cam-channel="4" class="px-3.5 py-1.5 text-xs font-mono font-bold rounded-lg border transition bg-white text-slate-700 border-slate-200 hover:bg-slate-100">
+              CH-04 Hardware Rack
+            </button>
+          </div>
+
+          <!-- Feature Toggles -->
+          <div class="flex items-center space-x-2 font-mono text-xs">
+            <button id="toggle-ai-detection" class="px-3 py-1.5 rounded-lg border border-sky-300 bg-sky-100 text-sky-700 font-bold flex items-center space-x-1.5 transition">
+              <i data-lucide="cpu" class="w-3.5 h-3.5"></i>
+              <span>AI Target Box</span>
+            </button>
+            <button id="toggle-cam-night" class="px-3 py-1.5 rounded-lg border border-slate-300 bg-white text-slate-700 font-bold flex items-center space-x-1.5 hover:bg-slate-100 transition">
+              <i data-lucide="moon" class="w-3.5 h-3.5 text-amber-500"></i>
+              <span>ColorHunter Night</span>
+            </button>
+            <button id="toggle-cam-grid" class="px-3 py-1.5 rounded-lg border border-sky-300 bg-sky-100 text-sky-700 font-bold flex items-center space-x-1.5 transition">
+              <i data-lucide="grid" class="w-3.5 h-3.5"></i>
+              <span>HUD Wireframe</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Simulated CCTV Screen -->
+        <div id="cctv-viewport" class="relative mt-4 rounded-2xl overflow-hidden bg-slate-950 aspect-[16/9] max-h-[580px] shadow-inner border border-slate-800 transition-all duration-300">
+          
+          <!-- Underlying Image Stream -->
+          <img id="cctv-feed-image" src="assets/hero_camera.jpg" alt="CCTV Feed Viewport" class="w-full h-full object-cover object-center filter brightness-95">
+
+          <!-- Scanline Animation -->
+          <div id="cctv-scanline" class="scanline-active"></div>
+
+          <!-- Technical Grid Overlay -->
+          <div id="cctv-grid-overlay" class="absolute inset-0 pointer-events-none opacity-20 bg-[linear-gradient(to_right,#00f2fe_1px,transparent_1px),linear-gradient(to_bottom,#00f2fe_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+
+          <!-- Top-Left Telemetry Overlay -->
+          <div class="absolute top-4 left-4 z-20 font-mono text-xs text-white bg-slate-950/80 backdrop-blur-md px-3.5 py-2 rounded-lg border border-slate-700 shadow-md">
+            <div class="flex items-center space-x-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
+              <span class="font-bold text-red-400">● LIVE REC</span>
+              <span class="text-slate-400">|</span>
+              <span id="cctv-zone-code" class="text-sky-300 font-bold">CH-01 // ANPR_UHD</span>
+            </div>
+            <div class="text-[11px] text-slate-300 mt-0.5">
+              ZONE: <span id="cctv-zone-name" class="text-white font-semibold">Main Perimeter & Vehicle Gate</span>
+            </div>
+            <div class="text-[10px] text-slate-400 mt-1">
+              TIMECODE: <span class="live-timecode text-emerald-400 font-bold">2026-10-07 00:00:00</span>
+            </div>
+          </div>
+
+          <!-- Top-Right Telemetry Overlay -->
+          <div class="absolute top-4 right-4 z-20 font-mono text-xs text-white bg-slate-950/80 backdrop-blur-md px-3.5 py-2 rounded-lg border border-slate-700 shadow-md text-right">
+            <div class="text-sky-400 font-bold" id="cctv-resolution">4K UHD (3840x2160)</div>
+            <div class="text-[11px] text-slate-300">
+              FRAME-RATE: <span id="cctv-fps" class="text-amber-300 font-semibold">60 FPS</span> | CODEC: H.265+
+            </div>
+            <div class="text-[10px] text-slate-400 mt-0.5">
+              LUX: <span id="cctv-lux" class="text-emerald-400">0.0005 LUX</span> | <span id="cctv-colorhunter-badge" class="text-sky-400 font-semibold">DAYLIGHT HDR</span>
+            </div>
+          </div>
+
+          <!-- Dynamic AI Targets Container -->
+          <div id="cctv-targets-container" class="absolute inset-0 pointer-events-none z-10"></div>
+
+          <!-- Bottom Telemetry HUD Bar -->
+          <div class="absolute bottom-4 inset-x-4 z-20 font-mono text-[11px] text-slate-300 bg-slate-950/85 backdrop-blur-md px-4 py-2 rounded-lg border border-slate-800 flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center space-x-3">
+              <span class="text-sky-400 font-bold">SECURITY ENCRYPTION: AES-256</span>
+              <span class="text-slate-600">|</span>
+              <span class="text-emerald-400">STREAM LATENCY: 0.8ms</span>
+              <span class="text-slate-600">|</span>
+              <span class="text-slate-300">DEVICE: KTH-NVR-32PRO</span>
+            </div>
+            <div class="flex items-center space-x-2 text-amber-400">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+              <span>KTH CENTRAL COMMAND READY</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Simulator Instructions Pill -->
+        <div class="mt-4 flex flex-wrap items-center justify-between text-xs text-slate-500 font-mono">
+          <p>
+            💡 <strong class="text-slate-700">Tip:</strong> Click on CH-01, CH-02, CH-03, CH-04 or toggle "ColorHunter Night" to test night vision sensitivity in real-time.
+          </p>
+          <a href="#estimator" class="text-sky-600 font-bold hover:underline flex items-center">
+            <span>Configure This System For Your Site</span>
+            <i data-lucide="arrow-right" class="w-3 h-3 ml-1"></i>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SMART CCTV & IT COST ESTIMATOR (INTERACTIVE QUOTE ENGINE)
+       ========================================================================= -->
+  <section id="estimator" class="py-20 bg-white relative border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-3">
+        <div class="inline-flex items-center space-x-2 badge-gold-tech px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase">
+          <i data-lucide="calculator" class="w-3.5 h-3.5 text-amber-600"></i>
+          <span>Transparent Engineering Estimator</span>
+        </div>
+        <h2 class="font-display font-bold text-3xl sm:text-4xl text-slate-900">
+          Smart CCTV & IT Hardware Cost Calculator
+        </h2>
+        <p class="text-slate-600 text-sm">
+          Customize your camera grade, storage retention, and IT infrastructure addons. Get an instant transparent budget estimate with a one-click WhatsApp quote generator.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Left Column: Interactive Inputs -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <!-- Step 1: Select Premise Type -->
+          <div class="glass-panel-luxury p-6 rounded-2xl border border-slate-200">
+            <label class="block font-display font-bold text-slate-900 text-base mb-3 flex items-center justify-between">
+              <span>1. Select Property / Premise Type</span>
+              <span class="text-xs font-mono text-sky-600 font-semibold" id="calc-summary-premise">Corporate Office</span>
+            </label>
+            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs font-medium">
+              <label class="cursor-pointer">
+                <input type="radio" name="premise-type" value="Luxury Villa / Residence" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-200 peer-checked:border-sky-500 peer-checked:bg-sky-50/50 peer-checked:text-sky-700 text-center transition">
+                  <i data-lucide="home" class="w-5 h-5 mx-auto mb-1 text-slate-600"></i>
+                  <span>Luxury Villa</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="premise-type" value="Corporate Office" checked class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-200 peer-checked:border-sky-500 peer-checked:bg-sky-50/50 peer-checked:text-sky-700 text-center transition">
+                  <i data-lucide="building-2" class="w-5 h-5 mx-auto mb-1 text-slate-600"></i>
+                  <span>Corporate Office</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="premise-type" value="Retail & Showroom" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-200 peer-checked:border-sky-500 peer-checked:bg-sky-50/50 peer-checked:text-sky-700 text-center transition">
+                  <i data-lucide="shopping-bag" class="w-5 h-5 mx-auto mb-1 text-slate-600"></i>
+                  <span>Retail / Showroom</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="premise-type" value="Industrial Warehouse" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-200 peer-checked:border-sky-500 peer-checked:bg-sky-50/50 peer-checked:text-sky-700 text-center transition">
+                  <i data-lucide="warehouse" class="w-5 h-5 mx-auto mb-1 text-slate-600"></i>
+                  <span>Warehouse / Factory</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="premise-type" value="Hospital & Healthcare" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-200 peer-checked:border-sky-500 peer-checked:bg-sky-50/50 peer-checked:text-sky-700 text-center transition">
+                  <i data-lucide="activity" class="w-5 h-5 mx-auto mb-1 text-slate-600"></i>
+                  <span>Healthcare Facility</span>
+                </div>
+              </label>
+
+              <label class="cursor-pointer">
+                <input type="radio" name="premise-type" value="School & Institution" class="peer sr-only">
+                <div class="p-3 rounded-xl border border-slate-200 peer-checked:border-sky-500 peer-checked:bg-sky-50/50 peer-checked:text-sky-700 text-center transition">
+                  <i data-lucide="graduation-cap" class="w-5 h-5 mx-auto mb-1 text-slate-600"></i>
+                  <span>School / Campus</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Step 2: Camera Count & Grade -->
+          <div class="glass-panel-luxury p-6 rounded-2xl border border-slate-200 space-y-5">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <label class="font-display font-bold text-slate-900 text-base">
+                  2. Number of CCTV Cameras Needed
+                </label>
+                <div class="font-mono text-lg font-bold text-sky-600 bg-sky-50 px-3 py-0.5 rounded-lg border border-sky-200">
+                  <span id="calc-camera-count-val">8</span> Cameras
+                </div>
+              </div>
+
+              <!-- Slider -->
+              <input id="calc-camera-count" type="range" min="2" max="32" value="8" step="2" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-sky-600">
+              
+              <!-- Quick Preset Buttons -->
+              <div class="flex items-center justify-between mt-3 text-xs font-mono font-bold text-slate-600">
+                <button type="button" data-cam-preset="4" class="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 rounded border border-slate-300">4 Cams</button>
+                <button type="button" data-cam-preset="8" class="px-2.5 py-1 bg-sky-600 text-white rounded border border-sky-600">8 Cams</button>
+                <button type="button" data-cam-preset="16" class="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 rounded border border-slate-300">16 Cams</button>
+                <button type="button" data-cam-preset="24" class="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 rounded border border-slate-300">24 Cams</button>
+                <button type="button" data-cam-preset="32" class="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 rounded border border-slate-300">32 Cams</button>
+              </div>
+            </div>
+
+            <!-- Camera Grade Selection -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div>
+                <label class="block text-xs font-mono font-bold text-slate-700 mb-1.5 uppercase">
+                  Camera Lens Grade:
+                </label>
+                <select id="calc-camera-type" class="w-full bg-white border border-slate-300 rounded-xl p-3 text-sm font-semibold text-slate-800 focus:outline-none focus:border-sky-500">
+                  <option value="5mp-ai">5MP AI Smart HD (Optimal Balanced)</option>
+                  <option value="4k-colorhunter" selected>4K Ultra ColorHunter NightVision (Executive)</option>
+                  <option value="4k-ptz">4K 360° PTZ Optical Auto-Tracker (Premium)</option>
+                  <option value="2mp-hd">2MP Full HD Standard (Budget Economical)</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-mono font-bold text-slate-700 mb-1.5 uppercase">
+                  Storage Video Retention:
+                </label>
+                <select id="calc-storage-days" class="w-full bg-white border border-slate-300 rounded-xl p-3 text-sm font-semibold text-slate-800 focus:outline-none focus:border-sky-500">
+                  <option value="15">15 Days Recording (Seagate SkyHawk)</option>
+                  <option value="30" selected>30 Days Surveillance Backup (Recommended)</option>
+                  <option value="60">60 Days Enterprise RAID Archival</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Step 3: Complementary IT & Hardware Infrastructure (From Photo) -->
+          <div class="glass-panel-luxury p-6 rounded-2xl border border-slate-200">
+            <label class="block font-display font-bold text-slate-900 text-base mb-3">
+              3. Include Integrated IT Hardware & Infrastructure Add-ons:
+            </label>
+            <div class="space-y-3 text-sm">
+              
+              <label class="flex items-center justify-between p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer transition">
+                <div class="flex items-center space-x-3">
+                  <input type="checkbox" class="calc-addon-check w-4 h-4 rounded text-sky-600 focus:ring-sky-500" data-addon-name="Online UPS Power Backup" data-addon-price="18500" checked>
+                  <div>
+                    <span class="font-semibold text-slate-900 block">Online UPS & Battery Power Backup</span>
+                    <span class="text-xs text-slate-500">Ensures zero recording loss during power cuts</span>
+                  </div>
+                </div>
+                <span class="font-mono font-bold text-slate-700 text-xs">+₹18,500</span>
+              </label>
+
+              <label class="flex items-center justify-between p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer transition">
+                <div class="flex items-center space-x-3">
+                  <input type="checkbox" class="calc-addon-check w-4 h-4 rounded text-sky-600 focus:ring-sky-500" data-addon-name="Enterprise Wi-Fi 6 Mesh" data-addon-price="22000" checked>
+                  <div>
+                    <span class="font-semibold text-slate-900 block">High-Speed Networking & Wi-Fi 6 Mesh</span>
+                    <span class="text-xs text-slate-500">Managed PoE+ switches & zero-deadzone access points</span>
+                  </div>
+                </div>
+                <span class="font-mono font-bold text-slate-700 text-xs">+₹22,000</span>
+              </label>
+
+              <label class="flex items-center justify-between p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer transition">
+                <div class="flex items-center space-x-3">
+                  <input type="checkbox" class="calc-addon-check w-4 h-4 rounded text-sky-600 focus:ring-sky-500" data-addon-name="UTM Firewall Security" data-addon-price="34500">
+                  <div>
+                    <span class="font-semibold text-slate-900 block">Hardware Firewall & Network Security</span>
+                    <span class="text-xs text-slate-500">Sophos / SonicWall UTM appliance & encrypted VPN</span>
+                  </div>
+                </div>
+                <span class="font-mono font-bold text-slate-700 text-xs">+₹34,500</span>
+              </label>
+
+              <label class="flex items-center justify-between p-3 rounded-xl border border-slate-200 hover:bg-slate-50 cursor-pointer transition">
+                <div class="flex items-center space-x-3">
+                  <input type="checkbox" class="calc-addon-check w-4 h-4 rounded text-sky-600 focus:ring-sky-500" data-addon-name="Surveillance Desktop Workstation" data-addon-price="48000">
+                  <div>
+                    <span class="font-semibold text-slate-900 block">Desktop Computer & Multi-Display Monitoring Station</span>
+                    <span class="text-xs text-slate-500">Dedicated quad-core Intel i7 control workstation + 27" monitor</span>
+                  </div>
+                </div>
+                <span class="font-mono font-bold text-slate-700 text-xs">+₹48,000</span>
+              </label>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Real-Time Pricing Summary Card -->
+        <div class="lg:col-span-5 sticky top-28">
+          <div class="cyber-bracket glass-panel-luxury p-7 rounded-3xl border-2 border-sky-300 shadow-2xl bg-white relative overflow-hidden">
+            
+            <div class="flex items-center justify-between pb-4 border-b border-slate-200">
+              <div>
+                <span class="text-[11px] font-mono font-bold uppercase tracking-wider text-sky-600">Transparent Estimate</span>
+                <h3 class="font-display font-extrabold text-2xl text-slate-900">Budget Breakdown</h3>
+              </div>
+              <span class="radar-live-beacon"></span>
+            </div>
+
+            <div class="py-5 space-y-3.5 text-sm border-b border-slate-200">
+              <div class="flex items-center justify-between text-slate-600">
+                <span>Selected Cameras:</span>
+                <span id="calc-summary-cameras" class="font-mono font-bold text-slate-900">8x 4K ColorHunter</span>
+              </div>
+              <div class="flex items-center justify-between text-slate-600">
+                <span>Hardware & Add-ons:</span>
+                <span id="calc-hardware-subtotal" class="font-mono font-semibold text-slate-900">₹72,800</span>
+              </div>
+              <div class="flex items-center justify-between text-slate-600">
+                <span>Weatherproof Cabling & Conduits:</span>
+                <span id="calc-cabling-subtotal" class="font-mono font-semibold text-slate-900">₹6,800</span>
+              </div>
+              <div class="flex items-center justify-between text-slate-600">
+                <span>Certified On-Site Installation & Calibration:</span>
+                <span id="calc-install-subtotal" class="font-mono font-semibold text-slate-900">₹7,800</span>
+              </div>
+            </div>
+
+            <!-- Grand Total Display -->
+            <div class="pt-5 pb-6">
+              <span class="text-xs font-mono font-bold text-slate-500 uppercase tracking-wide block mb-1">
+                Estimated Project Investment (Approx):
+              </span>
+              <div class="flex items-baseline space-x-2">
+                <span id="calc-grand-total" class="font-display font-extrabold text-4xl text-slate-900 tracking-tight text-sky-700">
+                  ₹87,400
+                </span>
+                <span class="text-xs font-mono text-slate-500">+ Taxes as applicable</span>
+              </div>
+              <p class="text-[11px] text-slate-500 mt-2 font-mono">
+                * Includes 3-Year Free On-Site Warranty + 1 Year Complimentary AMC + Mobile App Setup.
+              </p>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="space-y-3">
+              <a id="calc-whatsapp-btn" href="#" target="_blank" class="w-full btn-cyber-primary py-4 text-center flex items-center justify-center font-bold text-sm shadow-xl">
+                <i data-lucide="message-square" class="w-4 h-4 mr-2"></i>
+                <span>Send Configuration on WhatsApp</span>
+              </a>
+
+              <a href="tel:+919073968243" class="w-full btn-cyber-gold py-3.5 text-center flex items-center justify-center font-bold text-sm shadow-md">
+                <i data-lucide="phone-call" class="w-4 h-4 mr-2"></i>
+                <span>Lock Quote via Call: +91 9073968243</span>
+              </a>
+            </div>
+
+            <div class="mt-4 p-3 bg-amber-50 rounded-xl border border-amber-200/80 text-amber-900 text-xs flex items-start space-x-2.5">
+              <i data-lucide="info" class="w-4 h-4 text-amber-600 flex-shrink-0 mt-0.5"></i>
+              <span>A senior KTH Solutions security architect will visit your site to finalize camera angles and cable conduits at <strong>ZERO cost</strong>.</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       INTERACTIVE OPTICAL LENS & FIELD-OF-VIEW (FOV) PLANNER
+       ========================================================================= -->
+  <section id="lens-visualizer" class="py-20 bg-slate-50 relative border-b border-slate-200 cyber-grid-bg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+        
+        <!-- Left: Explanation & Controls -->
+        <div class="lg:col-span-6 space-y-6">
+          <div class="inline-flex items-center space-x-2 badge-tech px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase">
+            <i data-lucide="sliders" class="w-3.5 h-3.5 text-sky-600"></i>
+            <span>Engineering Precision Visualizer</span>
+          </div>
+
+          <h2 class="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-tight">
+            Camera Focal Length & Field-of-View (FOV) Simulator
+          </h2>
+
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Different areas need different optical lenses. Use our simulator to see how lens focal length changes the coverage angle and target identification distance before finalizing your installation plan.
+          </p>
+
+          <!-- Slider Control -->
+          <div class="p-6 bg-white rounded-2xl border border-slate-200 shadow-sm space-y-4">
+            <div class="flex items-center justify-between">
+              <span class="font-mono text-xs font-bold uppercase text-slate-600">Adjust Lens Focal Length:</span>
+              <span id="fov-angle-label" class="font-mono font-bold text-sky-600 text-sm bg-sky-50 px-2.5 py-1 rounded border border-sky-200">
+                84° Field of View
+              </span>
+            </div>
+
+            <!-- Discrete Stepped Slider (2.8, 4.0, 6.0, 12.0) -->
+            <input id="fov-lens-slider" type="range" min="0" max="3" value="1" step="1" class="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-sky-600">
+            
+            <div class="flex justify-between text-xs font-mono font-bold text-slate-500">
+              <span>2.8mm (Wide)</span>
+              <span>4.0mm (Standard)</span>
+              <span>6.0mm (Narrow)</span>
+              <span>12.0mm (Telephoto)</span>
+            </div>
+          </div>
+
+          <!-- Dynamic Details Card -->
+          <div class="p-5 bg-white rounded-2xl border border-slate-200 space-y-3 font-mono text-xs">
+            <div class="flex items-center justify-between border-b border-slate-100 pb-2">
+              <span class="text-slate-500">RECOGNITION DISTANCE:</span>
+              <span id="fov-distance-label" class="font-bold text-slate-900">25 - 35 Meters Balanced</span>
+            </div>
+            <div>
+              <span class="text-slate-500 block mb-1">OPTIMAL USE CASE:</span>
+              <span id="fov-usage-label" class="font-semibold text-sky-700">Office corridors, driveways, perimeter fence, warehouse lanes</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right: Dynamic SVG Radar Cone Graphic -->
+        <div class="lg:col-span-6 flex justify-center">
+          <div class="cyber-bracket glass-panel-luxury p-8 rounded-3xl border border-slate-200 shadow-xl w-full max-w-lg bg-white relative">
+            <div class="text-center font-mono text-xs text-slate-500 mb-2 uppercase font-bold">
+              Optical Radar Coverage Simulation
+            </div>
+
+            <!-- SVG Container -->
+            <div class="relative w-full aspect-square flex items-center justify-center bg-slate-950 rounded-2xl overflow-hidden p-4 border border-slate-800">
+              <svg viewBox="0 0 300 240" class="w-full h-full">
+                <!-- Concentric Distance Range Rings -->
+                <circle cx="150" cy="20" r="60" fill="none" stroke="#1e293b" stroke-dasharray="3,3" />
+                <circle cx="150" cy="20" r="120" fill="none" stroke="#1e293b" stroke-dasharray="3,3" />
+                <circle cx="150" cy="20" r="180" fill="none" stroke="#1e293b" stroke-dasharray="3,3" />
+                
+                <!-- Range markers -->
+                <text x="155" y="80" fill="#64748b" font-size="9" font-family="JetBrains Mono">20m</text>
+                <text x="155" y="140" fill="#64748b" font-size="9" font-family="JetBrains Mono">40m</text>
+                <text x="155" y="200" fill="#64748b" font-size="9" font-family="JetBrains Mono">80m</text>
+
+                <!-- Dynamic FOV Cone Triangle -->
+                <path id="fov-cone-path" d="M 150 20 L 60 220 L 240 220 Z" fill="rgba(2, 132, 199, 0.22)" stroke="#00F2FE" stroke-width="1.8" />
+
+                <!-- Camera Sensor Emitter Origin -->
+                <circle cx="150" cy="20" r="8" fill="#F59E0B" stroke="#FFFFFF" stroke-width="2" />
+                <circle cx="150" cy="20" r="16" fill="none" stroke="#F59E0B" stroke-width="1" class="animate-ping" opacity="0.4" />
+                
+                <!-- Target icons within cone -->
+                <circle cx="150" cy="110" r="4" fill="#10B981" />
+                <text x="160" y="113" fill="#10B981" font-size="9" font-family="JetBrains Mono">TARGET LOCK</text>
+              </svg>
+
+              <div class="absolute bottom-3 right-4 font-mono text-[10px] text-sky-400 bg-slate-900/90 px-2 py-1 rounded border border-slate-700">
+                ACTIVE FOV ANGLE
+              </div>
+            </div>
+
+            <div class="mt-4 text-center">
+              <a href="tel:+919073968243" class="text-xs font-mono font-bold text-amber-600 hover:text-amber-700">
+                Need expert recommendation for your blueprint? Call +91 9073968243 →
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       AUTHORIZED OEM PARTNERS & INFRASTRUCTURE ECOSYSTEM
+       ========================================================================= -->
+  <section class="py-14 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="text-xs font-mono font-bold tracking-widest text-slate-500 uppercase block mb-8">
+        DEPLOYING AUTHENTIC HARDWARE FROM GLOBAL TECHNOLOGY LEADERS
+      </span>
+
+      <!-- Brand Logos Grid -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center justify-center opacity-85">
+        <div class="p-4 rounded-xl border border-slate-100 hover:border-slate-300 transition text-center font-display font-extrabold text-slate-800 tracking-wider">
+          HIKVISION
+        </div>
+        <div class="p-4 rounded-xl border border-slate-100 hover:border-slate-300 transition text-center font-display font-extrabold text-slate-800 tracking-wider">
+          CP PLUS
+        </div>
+        <div class="p-4 rounded-xl border border-slate-100 hover:border-slate-300 transition text-center font-display font-extrabold text-slate-800 tracking-wider">
+          DAHUA
+        </div>
+        <div class="p-4 rounded-xl border border-slate-100 hover:border-slate-300 transition text-center font-display font-extrabold text-slate-800 tracking-wider">
+          CISCO
+        </div>
+        <div class="p-4 rounded-xl border border-slate-100 hover:border-slate-300 transition text-center font-display font-extrabold text-slate-800 tracking-wider">
+          SOPHOS
+        </div>
+        <div class="p-4 rounded-xl border border-slate-100 hover:border-slate-300 transition text-center font-display font-extrabold text-slate-800 tracking-wider">
+          APC BY SCHNEIDER
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       WHY CHOOSE KTH SOLUTIONS PVT LTD (AUTHORITY & TRUST)
+       ========================================================================= -->
+  <section id="why-kth" class="py-20 bg-slate-50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <div class="inline-flex items-center space-x-2 badge-gold-tech px-3.5 py-1 rounded-full text-xs font-mono font-bold uppercase">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-amber-600"></i>
+          <span>The KTH Solutions Standard</span>
+        </div>
+        <h2 class="font-display font-bold text-3xl sm:text-4xl text-slate-900">
+          Why Discerning Clients Trust KTH Solutions
+        </h2>
+        <p class="text-slate-600 text-sm">
+          Unlike ordinary installers who leave exposed wires and unconfigured routers, we engineer enterprise-grade security systems with architectural aesthetic standards.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Pillar 1 -->
+        <div class="glass-panel-luxury p-8 rounded-2xl border border-slate-200">
+          <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-600 flex items-center justify-center mb-6">
+            <i data-lucide="eye-off" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-3">Concealed Aesthetic Cabling</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            We use premium PVC casing, concealed conduit routing, and waterproof silicon-sealed junction boxes. Your luxury villa or corporate facade remains clean, elegant, and untouched by messy wires.
+          </p>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="glass-panel-luxury p-8 rounded-2xl border border-slate-200">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center mb-6">
+            <i data-lucide="clock-4" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-3">2-Hour Rapid On-Site SLA</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            If a camera node drops offline or a hard drive sends an alert, our certified field technicians dispatch immediately. 99.98% uptime guarantee on all enterprise installations.
+          </p>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="glass-panel-luxury p-8 rounded-2xl border border-slate-200">
+          <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center mb-6">
+            <i data-lucide="badge-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="font-display font-bold text-xl text-slate-900 mb-3">100% Genuine OEM Warranty</h3>
+          <p class="text-slate-600 text-sm leading-relaxed">
+            Every camera, NVR, server component, and UPS comes with an authentic manufacturer warranty barcode. Instant replacement guarantee directly through KTH Solutions.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Installation Process Timeline -->
+      <div class="mt-20">
+        <h3 class="text-center font-display font-bold text-2xl text-slate-900 mb-12">
+          Our Seamless 5-Stage Deployment Process
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+          
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative">
+            <span class="font-mono text-2xl font-bold text-sky-500 block mb-2">01</span>
+            <h4 class="font-display font-bold text-slate-900 text-sm mb-1">Site Survey & Angle Audit</h4>
+            <p class="text-slate-500 text-xs">Zero-blindspot layout mapping & lighting measurement.</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative">
+            <span class="font-mono text-2xl font-bold text-sky-500 block mb-2">02</span>
+            <h4 class="font-display font-bold text-slate-900 text-sm mb-1">Custom Blueprint & Quote</h4>
+            <p class="text-slate-500 text-xs">Transparent itemized proposal with zero hidden costs.</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative">
+            <span class="font-mono text-2xl font-bold text-sky-500 block mb-2">03</span>
+            <h4 class="font-display font-bold text-sky-600 text-sm mb-1">Concealed Precision Cabling</h4>
+            <p class="text-slate-500 text-xs">Industrial mounting & conduit routing without damage.</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative">
+            <span class="font-mono text-2xl font-bold text-amber-500 block mb-2">04</span>
+            <h4 class="font-display font-bold text-slate-900 text-sm mb-1">AI Setup & Mobile Pairing</h4>
+            <p class="text-slate-500 text-xs">Live feeds configured on iOS, Android, and PC stations.</p>
+          </div>
+
+          <div class="bg-white p-5 rounded-2xl border border-slate-200 shadow-sm relative">
+            <span class="font-mono text-2xl font-bold text-emerald-500 block mb-2">05</span>
+            <h4 class="font-display font-bold text-slate-900 text-sm mb-1">AMC & Ongoing Support</h4>
+            <p class="text-slate-500 text-xs">Periodic lens cleaning, firmware security patches & visits.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FREQUENTLY ASKED QUESTIONS (FAQ)
+       ========================================================================= -->
+  <section class="py-20 bg-white border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-12 space-y-3">
+        <span class="badge-tech font-mono text-xs px-3 py-1 rounded-full font-bold uppercase">
+          Client Inquiries
+        </span>
+        <h2 class="font-display font-bold text-3xl text-slate-900">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="space-y-4">
+        
+        <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/50">
+          <button class="faq-toggle w-full flex items-center justify-between text-left font-display font-bold text-slate-900 text-base focus:outline-none">
+            <span>Can I view the CCTV camera feeds live on my smartphone from anywhere in the world?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-slate-200 text-slate-600 text-sm leading-relaxed">
+            Yes, 100%. We configure dedicated encrypted cloud mobile apps on all your iPhones, iPads, Android smartphones, and office PCs. You can view 4K live streams, playback past footage, zoom in, and receive instant push notifications when motion or human intrusion is detected.
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/50">
+          <button class="faq-toggle w-full flex items-center justify-between text-left font-display font-bold text-slate-900 text-base focus:outline-none">
+            <span>What happens to camera recording during electricity power cuts?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-slate-200 text-slate-600 text-sm leading-relaxed">
+            We provide Online True Sine-wave UPS systems that guarantee zero-millisecond switchover time. Even during unexpected power cuts or grid voltage fluctuations, your cameras, NVR recording, and Wi-Fi router will continue running uninterrupted for up to 4 to 8 hours.
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/50">
+          <button class="faq-toggle w-full flex items-center justify-between text-left font-display font-bold text-slate-900 text-base focus:outline-none">
+            <span>Do you supply computers, printers, and enterprise networking hardware as well?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-slate-200 text-slate-600 text-sm leading-relaxed">
+            Yes! KTH Solutions Pvt Ltd is a complete IT hardware and infrastructure provider. We supply brand-new corporate desktops, workstations, laser multi-function printers, Cisco/Ubiquiti switches, Wi-Fi 6 access points, hardware firewalls, and server racks.
+          </div>
+        </div>
+
+        <div class="border border-slate-200 rounded-2xl p-5 bg-slate-50/50">
+          <button class="faq-toggle w-full flex items-center justify-between text-left font-display font-bold text-slate-900 text-base focus:outline-none">
+            <span>What is included under your Annual Maintenance Contract (AMC)?</span>
+            <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-slate-500 transition-transform duration-300"></i>
+          </button>
+          <div class="faq-content hidden mt-3 pt-3 border-t border-slate-200 text-slate-600 text-sm leading-relaxed">
+            Our AMC covers scheduled quarterly physical preventive maintenance (optical lens cleaning, focus calibration, cable continuity tests, power voltage checks, HDD health checks) plus unlimited emergency visits with our 2-Hour Response SLA.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CONTACT & FREE SITE SURVEY CONSULTATION FORM
+       ========================================================================= -->
+  <section id="contact" class="py-20 bg-slate-900 text-white relative overflow-hidden cyber-grid-bg">
+    
+    <!-- Ambient glowing blooms -->
+    <div class="absolute -bottom-24 left-1/4 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-10 right-10 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Direct Contact Information -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <div class="inline-flex items-center space-x-2 text-amber-400 font-mono text-xs font-bold uppercase tracking-wider">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Immediate Response Center</span>
+          </div>
+
+          <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white leading-tight">
+            Schedule a Free On-Site Security & IT Inspection
+          </h2>
+
+          <p class="text-slate-300 text-sm leading-relaxed">
+            Our senior security engineer will visit your villa, office, showroom, or facility to map out blind spots, test optical camera angles, and deliver an exact blueprint estimate.
+          </p>
+
+          <!-- Direct Phone Card -->
+          <div class="p-6 rounded-2xl bg-slate-800/80 border border-slate-700 space-y-4">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 rounded-xl bg-amber-500 text-slate-950 flex items-center justify-center font-bold">
+                <i data-lucide="phone-outgoing" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <span class="text-xs font-mono text-slate-400 block">DIRECT HOTLINE (CALL NOW)</span>
+                <a href="tel:+919073968243" class="text-2xl font-display font-extrabold text-amber-400 hover:text-amber-300">
+                  +91 9073968243
+                </a>
+              </div>
+            </div>
+
+            <div class="flex items-center space-x-4 pt-3 border-t border-slate-700">
+              <div class="w-12 h-12 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-bold">
+                <i data-lucide="message-circle" class="w-6 h-6"></i>
+              </div>
+              <div>
+                <span class="text-xs font-mono text-slate-400 block">WHATSAPP INSTANT DESK</span>
+                <a href="https://wa.me/919073968243" target="_blank" class="text-base font-mono font-bold text-emerald-400 hover:text-emerald-300">
+                  +91 9073968243 (24/7 Chat)
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Registered Details from Banner -->
+          <div class="space-y-2 text-xs font-mono text-slate-400">
+            <p><strong class="text-slate-200">COMPANY:</strong> KTH SOLUTIONS PRIVATE LIMITED</p>
+            <p><strong class="text-slate-200">SERVICES:</strong> CCTV • Computers • Networking • UPS • Firewall • Storage • AMC</p>
+            <p><strong class="text-slate-200">RESPONSE GUARANTEE:</strong> Free Site Visit Confirmation within 15 Minutes</p>
+          </div>
+
+        </div>
+
+        <!-- Right: Interactive Booking Form -->
+        <div class="lg:col-span-7">
+          <div class="cyber-bracket bg-white text-slate-900 p-8 sm:p-10 rounded-3xl shadow-2xl relative">
+            
+            <div class="mb-6">
+              <h3 class="font-display font-bold text-2xl text-slate-900">Request Site Survey & Custom Quote</h3>
+              <p class="text-slate-500 text-xs mt-1">Fill out the details below for instant engineer dispatch scheduling.</p>
+            </div>
+
+            <form id="survey-booking-form" class="space-y-4">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-mono font-bold text-slate-700 mb-1">Your Full Name *</label>
+                  <input id="form-name" type="text" required placeholder="e.g. Rajesh Sharma" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-sky-500">
+                </div>
+
+                <div>
+                  <label class="block text-xs font-mono font-bold text-slate-700 mb-1">Phone Number (Call/WhatsApp) *</label>
+                  <input id="form-phone" type="tel" required placeholder="+91 98765 43210" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-sky-500">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-mono font-bold text-slate-700 mb-1">Primary Service Needed *</label>
+                  <select id="form-service" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-sky-500">
+                    <option value="CCTV Surveillance Installation">CCTV Surveillance Installation</option>
+                    <option value="Networking & Enterprise Wi-Fi">Networking & Enterprise Wi-Fi</option>
+                    <option value="Computers, Workstations & Printers">Computers, Workstations & Printers</option>
+                    <option value="UPS & Power Backup System">UPS & Power Backup System</option>
+                    <option value="Firewall & Cyber Security">Firewall & Cyber Security</option>
+                    <option value="Data Storage & Servers">Data Storage & Servers</option>
+                    <option value="Annual Maintenance Contract (AMC)">Annual Maintenance Contract (AMC)</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label class="block text-xs font-mono font-bold text-slate-700 mb-1">Premise Category</label>
+                  <select id="form-premise" class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-sky-500">
+                    <option value="Corporate Office">Corporate Office</option>
+                    <option value="Luxury Villa / Bungalow">Luxury Villa / Bungalow</option>
+                    <option value="Retail Store / Showroom">Retail Store / Showroom</option>
+                    <option value="Factory / Industrial Warehouse">Factory / Industrial Warehouse</option>
+                    <option value="Hospital / School">Hospital / School</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-mono font-bold text-slate-700 mb-1">Location / Site Address & Specific Notes</label>
+                <textarea id="form-notes" rows="3" placeholder="Describe your location, approx area (sq. ft), or number of floors..." class="w-full bg-slate-50 border border-slate-300 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:border-sky-500"></textarea>
+              </div>
+
+              <button type="submit" class="w-full btn-cyber-primary py-4 text-center font-bold text-sm tracking-wide shadow-xl flex items-center justify-center space-x-2">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Submit & Confirm Free Site Inspection</span>
+              </button>
+
+              <p class="text-[11px] text-center text-slate-500 font-mono">
+                🔒 Privacy Protected. We never spam. An engineer will call you shortly.
+              </p>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SUBMISSION CONFIRMATION MODAL
+       ========================================================================= -->
+  <div id="form-success-modal" class="fixed inset-0 z-50 bg-slate-950/75 backdrop-blur-sm hidden items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-md w-full p-8 text-center shadow-2xl border-2 border-emerald-400 animate-in fade-in zoom-in duration-200">
+      <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
+        <i data-lucide="check-circle" class="w-8 h-8"></i>
+      </div>
+      <h3 class="font-display font-bold text-2xl text-slate-900 mb-2">Request Received!</h3>
+      <p class="text-slate-600 text-sm mb-6">
+        Thank you. Our senior technical supervisor at <strong>KTH SOLUTIONS PVT LTD</strong> will reach out to you within 15 minutes.
+      </p>
+      <div class="space-y-3">
+        <a id="modal-whatsapp-link" href="#" target="_blank" class="w-full btn-cyber-primary py-3 text-sm font-bold flex items-center justify-center">
+          <i data-lucide="message-circle" class="w-4 h-4 mr-2"></i>
+          <span>Forward Directly to WhatsApp</span>
+        </a>
+        <button id="close-success-modal" class="w-full py-2.5 text-xs text-slate-500 font-bold hover:text-slate-800">
+          Close Window
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       LUXURY FOOTER
+       ========================================================================= -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-14 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
+        
+        <!-- Company Info -->
+        <div class="space-y-4">
+          <div class="flex items-center space-x-2">
+            <span class="font-display font-extrabold text-lg text-white">
+              KTH <span class="text-sky-400">SOLUTIONS</span>
+            </span>
+            <span class="text-[10px] font-mono text-slate-400 border border-slate-700 px-1 py-0.5 rounded">
+              PVT LTD
+            </span>
+          </div>
+          <p class="text-slate-400 text-xs leading-relaxed">
+            Your One-Stop IT Hardware, Networking & High-Security CCTV Solutions Provider. Engineered with military precision and luxury aesthetics.
+          </p>
+          <div class="font-mono text-slate-300">
+            <span class="block text-slate-500 text-[10px]">DIRECT DESK:</span>
+            <a href="tel:+919073968243" class="text-amber-400 font-bold text-sm hover:underline">+91 9073968243</a>
+          </div>
+        </div>
+
+        <!-- Solutions Links -->
+        <div>
+          <h4 class="font-display font-bold text-white text-sm mb-4">Core Hardware & Services</h4>
+          <ul class="space-y-2">
+            <li><a href="#services" class="hover:text-sky-400 transition">CCTV Surveillance Systems</a></li>
+            <li><a href="#services" class="hover:text-sky-400 transition">Computers & Workstations</a></li>
+            <li><a href="#services" class="hover:text-sky-400 transition">Printers & Scanners</a></li>
+            <li><a href="#services" class="hover:text-sky-400 transition">Networking & Wi-Fi Solutions</a></li>
+            <li><a href="#services" class="hover:text-sky-400 transition">UPS & Power Backup</a></li>
+            <li><a href="#services" class="hover:text-sky-400 transition">Firewall & Cyber Security</a></li>
+            <li><a href="#services" class="hover:text-sky-400 transition">Data Storage & Servers</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div>
+          <h4 class="font-display font-bold text-white text-sm mb-4">Interactive Tools</h4>
+          <ul class="space-y-2">
+            <li><a href="#cctv-simulator" class="hover:text-sky-400 transition">Live 4K Camera HUD Simulator</a></li>
+            <li><a href="#estimator" class="hover:text-sky-400 transition">CCTV & IT Cost Estimator</a></li>
+            <li><a href="#lens-visualizer" class="hover:text-sky-400 transition">Optical Lens FOV Planner</a></li>
+            <li><a href="#why-kth" class="hover:text-sky-400 transition">Why KTH Solutions</a></li>
+            <li><a href="#contact" class="hover:text-sky-400 transition">Book Free Site Survey</a></li>
+          </ul>
+        </div>
+
+        <!-- Service Assurances -->
+        <div class="space-y-3">
+          <h4 class="font-display font-bold text-white text-sm mb-2">Service Assurances</h4>
+          <div class="p-3 bg-slate-900 rounded-xl border border-slate-800">
+            <span class="text-amber-400 font-bold block text-xs">✓ 3-Year OEM Warranty</span>
+            <span class="text-slate-500 text-[11px]">Direct brand replacement support</span>
+          </div>
+          <div class="p-3 bg-slate-900 rounded-xl border border-slate-800">
+            <span class="text-sky-400 font-bold block text-xs">✓ 2-Hour Response SLA</span>
+            <span class="text-slate-500 text-[11px]">Rapid emergency support dispatch</span>
+          </div>
+          <div class="p-3 bg-slate-900 rounded-xl border border-slate-800">
+            <span class="text-emerald-400 font-bold block text-xs">✓ Concealed Cabling</span>
+            <span class="text-slate-500 text-[11px]">Architectural grade finish</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Bottom Bar -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-slate-500 text-[11px]">
+        <div>
+          © 2026 <strong>KTH SOLUTIONS PVT LTD</strong>. All Rights Reserved. Complete IT Solutions | Trusted Technology Support.
+        </div>
+        <div class="mt-4 sm:mt-0 font-mono">
+          Security Operations Hotline: <a href="tel:+919073968243" class="text-slate-300 font-bold hover:text-white">+91 9073968243</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       STICKY FLOATING CYBER QUICK ACTION BAR (ALWAYS ACCESSIBLE)
+       ========================================================================= -->
+  <div class="fixed bottom-5 right-5 z-40 flex flex-col space-y-3">
+    
+    <!-- WhatsApp Floating Action -->
+    <a href="https://wa.me/919073968243?text=Hello%20KTH%20Solutions,%20I%20would%20like%20to%20inquire%20about%20CCTV%20and%20IT%20Hardware." target="_blank" class="w-13 h-13 p-3.5 bg-emerald-500 hover:bg-emerald-600 text-white rounded-full shadow-2xl flex items-center justify-center transform hover:scale-110 transition duration-300 border-2 border-white" title="Chat on WhatsApp (+91 9073968243)">
+      <i data-lucide="message-circle" class="w-6 h-6"></i>
+    </a>
+
+    <!-- Direct Call Floating Action -->
+    <a href="tel:+919073968243" class="w-13 h-13 p-3.5 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold rounded-full shadow-2xl flex items-center justify-center transform hover:scale-110 transition duration-300 border-2 border-white" title="Call Now: +91 9073968243">
+      <i data-lucide="phone-call" class="w-6 h-6"></i>
+    </a>
+
+  </div>
+
+  <!-- Lucide Icon Renderer Script -->
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <!-- App Interactive Logic Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
